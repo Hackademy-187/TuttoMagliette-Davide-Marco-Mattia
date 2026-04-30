@@ -288,3 +288,52 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* Fine Marco */
+/* inizio davide*/
+body {
+      background-color: #000;
+      color: white;
+    }
+
+    .card-prodotto {
+      background: #111;
+      border: none;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: 0.4s;
+      position: relative;
+    }
+
+    .card-prodotto:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 0 20px #00ff88;
+    }
+
+    .card-prodotto img {
+      transition: 0.4s;
+    }
+
+    .card-prodotto:hover img {
+      transform: scale(1.1);
+    }
+
+    .prezzo-vecchio {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .prezzo-nuovo {
+      color: #00ff88;
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    .badge-sconto {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #00ff88;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
