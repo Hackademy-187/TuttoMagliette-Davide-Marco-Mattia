@@ -13,6 +13,12 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
     <!-- CDN Icone FontAwesome -->
 
@@ -25,13 +31,17 @@
 
     <link rel="stylesheet" href="./resources/css/style.css" />
   </head>
+
   <body>
     <!-- Inizio mattia -->
     <!-- Navbar Mattia -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary NavBar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./resources/media/Serie_A_logo.png" class="LogoPagina"
+        <a class="navbar-brand"
+          ><img
+            src="./resources/media/Serie_A_logo.png"
+            alt=""
+            class="LogoPagina"
         /></a>
         <button
           class="navbar-toggler"
@@ -47,33 +57,36 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Serie A</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Nuovi Arrivi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="">Nazionali</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href=""
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown link
+                Altre Leghe
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+                <li><a class="dropdown-item" href="">Serie B</a></li>
+                <li><a class="dropdown-item" href="">Serie C</a></li>
+                <li><a class="dropdown-item" href="">Serie D</a></li>
               </ul>
             </li>
           </ul>
+        </div>
+        <div class="navbar-brand logoCarrello">
+          <i class="fa-solid fa-cart-arrow-down"></i>
         </div>
       </div>
     </nav>
@@ -175,7 +188,75 @@
 
       <!-- Fine marco -->
 
+      <!-- Fine marco -->
       <!-- inizio davide -->
+      <div class="container py-5">
+        <h1 class="text-center mb-5">
+          BEST <span style="color: #00ff88">SELLER</span>
+        </h1>
+
+        <!-- ROW CENTRATA -->
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card card-prodotto text-center p-3">
+              <div class="badge-sconto">-70%</div>
+              <img src="./resources/media/inter.png" class="img-fluid mb-3" />
+              <h6>MAGLIA INTER 2025/26</h6>
+              <div class="text-warning mb-2">★★★★★</div>
+              <span class="prezzo-vecchio">€124.99</span><br />
+              <span class="prezzo-nuovo prezzo" data-prezzo="37,20 "
+                >37,20 €</span
+              >
+              <button class="btn btn-success mt-3">Compra</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card card-prodotto text-center p-3">
+              <div class="badge-sconto">-70%</div>
+              <img src="./resources/media/milan.jpg" class="img-fluid mb-3" />
+              <h6>MAGLIA MILAN</h6>
+              <div class="text-warning mb-2">★★★★★</div>
+              <span class="prezzo-vecchio">€124.99</span><br />
+              <span class="prezzo-nuovo prezzo" data-prezzo="37.20"
+                >37,20 €</span
+              >
+              <button class="btn btn-success mt-3">Compra</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card card-prodotto text-center p-3">
+              <div class="badge-sconto">-70%</div>
+              <img src="./resources/media/napoli.jpg" class="img-fluid mb-3" />
+              <h6>MAGLIA NAPOLI</h6>
+              <div class="text-warning mb-2">★★★★★</div>
+              <span class="prezzo-vecchio">€124.99</span><br />
+              <span class="prezzo-nuovo prezzo" data-prezzo="37,20 "
+                >37,20 €</span
+              >
+              <button class="btn btn-success mt-3">Compra</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card card-prodotto text-center p-3">
+              <div class="badge-sconto">-70%</div>
+              <img src="./resources/media/roma.png" class="img-fluid mb-3" />
+              <h6>MAGLIA ROMA</h6>
+              <div class="text-warning mb-2">★★★★★</div>
+              <span class="prezzo-vecchio">€124.99</span><br />
+              <span class="prezzo-nuovo prezzo" data-prezzo="37,20 "
+                >37,20 €</span
+              >
+              <button class="btn btn-success mt-3">Compra</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fine davide -->
+
+      <!-- Collegamento Js -->
 
       <!-- fine davide -->
       <p>
@@ -186,6 +267,12 @@
       </p>
       <!-- Collegamento Js -->
     </header>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script src="./resources/js/main.js"></script>
   </body>
 </html>
