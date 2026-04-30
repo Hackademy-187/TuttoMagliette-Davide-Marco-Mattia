@@ -29,6 +29,38 @@ h1,h2,h3,h4,h5,h6{
 }
 /* Inizio parte Mattia */
 
+.NavBar .navbar-brand img.LogoPagina {
+    width: 90px;
+    height: 130px;
+    margin-left: 10px;
+}
+
+.NavBar {
+    background-color: var(--terz) !important;
+    height: 140px;
+}
+
+.NavBar .navbar-nav .nav-link {
+    color: var(--main) !important;
+    font-size: 1.7rem;
+    display: flex;
+    
+}
+
+.NavBar .dropdown-toggle {
+    color: var(--main) !important;
+    font-size: 1.2rem;
+}
+
+.NavBar .dropdown-item {
+    color: var(--main);
+    font-size: 1.1rem;
+}
+
+.NavBar .logoCarrello{
+    margin-right: 50px;
+    
+}
 
 
 
