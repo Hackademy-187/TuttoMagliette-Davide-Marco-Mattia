@@ -1,0 +1,29 @@
+/* Variabili colori */
+
+:root{
+    --main: #03045e;
+    --sec: #023e8a;
+    --acc: #0077b6;
+    --terz: #00b4d8;
+    --quart: #48cae4;
+    
+}
+
+
+/* Font per tutto */
+* {
+font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+};
+
+
+/* Font per i titoli */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
