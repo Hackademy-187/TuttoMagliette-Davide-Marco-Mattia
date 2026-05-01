@@ -171,7 +171,24 @@
 
 // Inizio Marco
 
+function aggiornacountdown() {
+    let fine = new Date()
+    fine.setHours(23, 59, 59, 0);
+    let ora = new Date()
+    let diff = fine - ora;
 
+    let ore = Math.floor(diff / 1000 / 60 / 60);
+    let minuti = Math.floor((diff / 1000 / 60) % 60);
+    let secondi = Math.floor((diff / 1000) % 60);
+
+    document.getElementById("countdown").textContent =
+    `${String(ore). padStart(2, "0")}: ${String(minuti). padStart(2, "0")} : ${String(secondi). padStart(2, "0")}`;
+    
+    
+}
+
+setInterval(aggiornacountdown, 1000);
+aggiornacountdown()
 
 
 
