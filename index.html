@@ -1,278 +1,304 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TuttoMagliette</title>
 
     <!-- CDN Bootstrap -->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 
     <!-- CDN Icone FontAwesome -->
 
-    <script
-      src="https://kit.fontawesome.com/c4f90fbb06.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/c4f90fbb06.js" crossorigin="anonymous"></script>
 
     <!-- Collegamento Css -->
 
     <link rel="stylesheet" href="./resources/css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Inizio mattia -->
     <!-- Navbar Mattia -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary NavBar">
-      <div class="container-fluid">
-        <a class="navbar-brand"
-          ><img
-            src="./resources/media/Serie_A_logo.png"
-            alt=""
-            class="LogoPagina"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Serie A</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nuovi Arrivi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Nazionali</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href=""
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Altre Leghe
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">Serie B</a></li>
-                <li><a class="dropdown-item" href="">Serie C</a></li>
-                <li><a class="dropdown-item" href="">Serie D</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="./resources/media/Serie_A_logo.png" alt="" class="LogoPagina" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Serie A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nuovi Arrivi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Nazionali</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Altre Leghe
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">Serie B</a></li>
+                            <li><a class="dropdown-item" href="">Serie C</a></li>
+                            <li><a class="dropdown-item" href="">Serie D</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-brand logoCarrello">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
         </div>
-        <div class="navbar-brand logoCarrello">
-          <i class="fa-solid fa-cart-arrow-down"></i>
-        </div>
-      </div>
     </nav>
 
     <!-- fine navbar mattia -->
     <!-- Fine Mattia -->
 
     <!-- Inizio Marco -->
-    <header
-      style="
-        background: linear-gradient(
-          135deg,
-          var(--main) 0%,
-          var(--sec) 50%,
-          var(--acc) 100%
-        );
-        min-height: 500px;
-      "
-    >
-      <div class="container h-100 py-5">
-        <div class="row align-items-center h-100">
-          <div class="col-6">
-            <span
-              class="badge mb-3 px-3 py-2"
-              style="background-color: var(--terz)"
-            >
-              Nuova Collezione 2026</span
-            >
-            <h1 class="display-3 fw-bold text-white">
-              <span style="color: var(--quart)"
-                >Magliette da calcio italiane</span
-              >
-            </h1>
-            <p class="fs-5 mt-3" style="color: rgba(255, 255, 255, 0.7)">
-            Le magliette ufficiali delle tue squadre del cuore. Qualità, stile
-            e passione.
-            </p>
-            <a href="#" class="btn btn-celeste btn-lg mt-3 px-4 rounded-pill"
-            >Scopri la collezione</a
-            >
-        </div>
+    
+        <div class="container h-100 py-5">
+            <div class="row align-items-center h-100">
+                <div class="col-6">
+                    <span class="badge mb-3 px-3 py-2" style="background-color: var(--terz)">
+                        Nuova Collezione 2026</span>
+                    <h1 class="display-3 fw-bold text-white">
+                        <span style="color: var(--quart)">Magliette da calcio italiane</span>
+                    </h1>
+                    <p class="fs-5 mt-3" style="color: rgba(255, 255, 255, 0.7)">
+                        Le magliette ufficiali delle tue squadre del cuore. Qualità, stile
+                        e passione.
+                    </p>
+                    <a href="#" class="btn btn-celeste btn-lg mt-3 px-4 rounded-pill">Scopri la collezione</a>
+                </div>
 
-        <div class="col-6">
-            <div
-            class="card border-0 rounded-4 p-4"
-            style="
+                <div class="col-6">
+                    <div class="card border-0 rounded-4 p-4" style="
                 background: rgba(255, 255, 255, 0.08);
                 backdrop-filter: blur(10px);
-            "
-            >
-            <h5 class="text-white fw-bold mb-4">Perché sceglierci?</h5>
+              ">
+                        <h5 class="text-white fw-bold mb-4">Perché sceglierci?</h5>
 
-            <div class="d-flex align-items-center mb-3">
-                <span class="fs-2 me-3"></span>
-                <div>
-                <h6 class="text-white fw-bold mb-0">Spedizione gratuita</h6>
-                <small style="color: rgba(255, 255, 255, 0.6)"
-                    >Su tutti gli ordini sopra i 50€</small
-                >
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="fs-2 me-3"></span>
+                            <div>
+                                <h6 class="text-white fw-bold mb-0">Spedizione gratuita</h6>
+                                <small style="color: rgba(255, 255, 255, 0.6)">Su tutti gli ordini sopra i 50€</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="fs-2 me-3"></span>
+                            <div>
+                                <h6 class="text-white fw-bold mb-0">Magliette ufficiali</h6>
+                                <small style="color: rgba(255, 255, 255, 0.6)">100% originali e certificate</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="fs-2 me-3"></span>
+                            <div>
+                                <h6 class="text-white fw-bold mb-0">Reso gratuito</h6>
+                                <small style="color: rgba(255, 255, 255, 0.6)">Cambi e resi entro 30 giorni</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <span class="fs-2 me-3"></span>
+                            <div>
+                                <h6 class="text-white fw-bold mb-0">Sconto 20%</h6>
+                                <small style="color: rgba(255, 255, 255, 0.6)">Primo ordine con codice
+                                    <strong style="color: var(--quart)">Forzainter99</strong></small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="d-flex align-items-center mb-3">
-                <span class="fs-2 me-3"></span>
-                <div>
-                <h6 class="text-white fw-bold mb-0">Magliette ufficiali</h6>
-                <small style="color: rgba(255, 255, 255, 0.6)"
-                    >100% originali e certificate</small
-                >
-                </div>
-            </div>
-
-            <div class="d-flex align-items-center mb-3">
-                <span class="fs-2 me-3"></span>
-                <div>
-                <h6 class="text-white fw-bold mb-0">Reso gratuito</h6>
-                <small style="color: rgba(255, 255, 255, 0.6)"
-                    >Cambi e resi entro 30 giorni</small
-                >
-                </div>
-            </div>
-
-            <div class="d-flex align-items-center">
-                <span class="fs-2 me-3"></span>
-                <div>
-                <h6 class="text-white fw-bold mb-0">Sconto 20%</h6>
-            <small style="color: rgba(255, 255, 255, 0.6)"
-                    >Primo ordine con codice
-                    <strong style="color: var(--quart)"
-                    >Forzainter99</strong
-                    ></small
-                >
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <!-- Fine marco -->
-
-    <!-- Fine marco -->
-    <!-- inizio davide -->
-    <div class="container py-5">
-        <h1 class="text-center mb-5">
-        BEST <span style="color: #00ff88">SELLER</span>
-        </h1>
-
-        <!-- ROW CENTRATA -->
-        <div class="row g-4 justify-content-center">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-prodotto text-center p-3">
-            <div class="badge-sconto">-70%</div>
-            <img src="./resources/media/inter.png" class="img-fluid mb-3" />
-            <h6>MAGLIA INTER 2025/26</h6>
-            <div class="text-warning mb-2">★★★★★</div>
-            <span class="prezzo-vecchio">€124.99</span><br />
-            <span class="prezzo-nuovo prezzo" data-prezzo="37,20 "
-                >37,20 €</span
-            >
-            <button class="btn btn-success mt-3">Compra</button>
             </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-prodotto text-center p-3">
-            <div class="badge-sconto">-70%</div>
-            <img src="./resources/media/milan.jpg" class="img-fluid mb-3" />
-              <h6>MAGLIA MILAN</h6>
-              <div class="text-warning mb-2">★★★★★</div>
-              <span class="prezzo-vecchio">€124.99</span><br />
-              <span class="prezzo-nuovo prezzo" data-prezzo="37.20"
-                >37,20 €</span
-              >
-              <button class="btn btn-success mt-3">Compra</button>
-            </div>
-          </div>
+        <!-- Fine marco -->
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-prodotto text-center p-3">
-              <div class="badge-sconto">-70%</div>
-              <img src="./resources/media/napoli.jpg" class="img-fluid mb-3" />
-              <h6>MAGLIA NAPOLI</h6>
-              <div class="text-warning mb-2">★★★★★</div>
-              <span class="prezzo-vecchio">€124.99</span><br />
-              <span class="prezzo-nuovo prezzo" data-prezzo="37,20 "
-                >37,20 €</span
-              >
-              <button class="btn btn-success mt-3">Compra</button>
-            </div>
-          </div>
+        <!-- inizio davide -->
+        <div class="container py-5">
+            <h1 class="text-center mb-5">
+                BEST <span style="color: #00ff88">SELLER</span>
+            </h1>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-prodotto text-center p-3">
-              <div class="badge-sconto">-70%</div>
-              <img src="./resources/media/roma.png" class="img-fluid mb-3" />
-              <h6>MAGLIA ROMA</h6>
-              <div class="text-warning mb-2">★★★★★</div>
-              <span class="prezzo-vecchio">€124.99</span><br />
-              <span class="prezzo-nuovo prezzo" data-prezzo="37,20 "
-                >37,20 €</span
-              >
-              <button class="btn btn-success mt-3">Compra</button>
+            <!-- ROW CENTRATA -->
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card card-prodotto text-center p-3">
+                        <div class="badge-sconto">-70%</div>
+                        <img src="./resources/media/inter.png" class="img-fluid mb-3" />
+                        <h6 class="text-primary-emphasis">MAGLIA INTER 2025/26</h6>
+                        <div class="text-warning mb-2">★★★★★</div>
+                        <span class="prezzo-vecchio">€124.99</span><br />
+                        <span class="prezzo-nuovo prezzo" data-prezzo="37,20">37,20 €</span>
+                        <button class="btn btn-success mt-3" data-bs-toggle="modal"
+                            data-bs-target="#modalInter">Compra</button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card card-prodotto text-center p-3">
+                        <div class="badge-sconto">-70%</div>
+                        <img src="./resources/media/milan.jpg" class="img-fluid mb-3" />
+                        <h6 class="text-primary-emphasis">MAGLIA MILAN</h6>
+                        <div class="text-warning mb-2">★★★★★</div>
+                        <span class="prezzo-vecchio">€124.99</span><br />
+                        <span class="prezzo-nuovo prezzo" data-prezzo="37,20">37,20 €</span>
+                        <button class="btn btn-success mt-3" data-bs-toggle="modal"
+                            data-bs-target="#modalMilan">Compra</button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card card-prodotto text-center p-3">
+                        <div class="badge-sconto">-70%</div>
+                        <img src="./resources/media/napoli.jpg" class="img-fluid mb-3" />
+                        <h6 class="text-primary-emphasis">MAGLIA NAPOLI</h6>
+                        <div class="text-warning mb-2">★★★★★</div>
+                        <span class="prezzo-vecchio">€124.99</span><br />
+                        <span class="prezzo-nuovo prezzo" data-prezzo="37,20">37,20 €</span>
+                        <button class="btn btn-success mt-3" data-bs-toggle="modal"
+                            data-bs-target="#modalNapoli">Compra</button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card card-prodotto text-center p-3">
+                        <div class="badge-sconto">-70%</div>
+                        <img src="./resources/media/roma.png" class="img-fluid mb-3" />
+                        <h6 class="text-primary-emphasis">MAGLIA ROMA</h6>
+                        <div class="text-warning mb-2">★★★★★</div>
+                        <span class="prezzo-vecchio">€124.99</span><br />
+                        <span class="prezzo-nuovo prezzo" data-prezzo="37,20">37,20 €</span>
+                        <button class="btn btn-success mt-3" data-bs-toggle="modal"
+                            data-bs-target="#modalRoma">Compra</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <!-- fine davide -->
 
-      <!-- Collegamento Js -->
+        <!-- Modali -->
 
-      <!-- fine davide -->
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-        laborum ullam sapiente facere, reprehenderit aliquam corporis deserunt
-        animi. Ipsum qui quisquam maiores fuga aliquid asperiores molestias
-        laudantium consequuntur omnis maxime!
-      </p>
-      <!-- Collegamento Js -->
+        <!-- Modal Inter -->
+        <div class="modal fade" id="modalInter" tabindex="-1" aria-labelledby="modalInterLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalInterLabel">MAGLIA INTER 2025/26</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Prezzo: <strong>37,20 €</strong></p>
+                        <p>Disponibilità: 5 <br>
+                            Taglie:da XS a XL <br>
+                            Crea la tua maglia da calcio personalizzata.
+                            Stampate subito nel configuratore 3D.
+                        </p>
+                        <!-- eventuali dettagli aggiuntivi -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                        <button type="button" class="btn btn-success">Compra ora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Milan -->
+        <div class="modal fade" id="modalMilan" tabindex="-1" aria-labelledby="modalMilanLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalMilanLabel">MAGLIA MILAN</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Prezzo: <strong>37,20 €</strong></p>
+                        <p>Disponibilità: 5 <br>
+                            Taglie:da XS a XL<br>
+                            Crea la tua maglia da calcio personalizzata.
+                            Stampate subito nel configuratore 3D.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                        <button type="button" class="btn btn-success">Compra ora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Napoli -->
+        <div class="modal fade" id="modalNapoli" tabindex="-1" aria-labelledby="modalNapoliLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalNapoliLabel">MAGLIA NAPOLI</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Prezzo: <strong>37,20 €</strong></p>
+                        <p>Disponibilità: 5 <br>
+                            Taglie:da XS a XL<br>
+                            Crea la tua maglia da calcio personalizzata.
+                            Stampate subito nel configuratore 3D.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                        <button type="button" class="btn btn-success">Compra ora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Roma -->
+        <div class="modal fade" id="modalRoma" tabindex="-1" aria-labelledby="modalRomaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalRomaLabel">MAGLIA ROMA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Prezzo: <strong>37,20 €</strong></p>
+                        <p>Disponibilità: 5 <br>
+                            Taglie:da XS a XL<br>
+                            Crea la tua maglia da calcio personalizzata.
+                            Stampate subito nel configuratore 3D.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                        <button type="button" class="btn btn-success">Compra ora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- fine davide -->
+
+        <!-- Collegamento Js -->
     </header>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="./resources/js/main.js"></script>
-  </body>
+</body>
+
 </html>
