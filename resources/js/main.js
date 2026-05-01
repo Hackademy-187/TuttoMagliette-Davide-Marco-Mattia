@@ -272,38 +272,26 @@
 // Fine Marco
 
 //inizio davide
-// 1. Prendo tutti i prezzi dalla pagina
-const listaPrezzi = document.querySelectorAll(".prezzo");
+//prende tutti i prezzi nella pagina
+let prezzoAttuale = '124.99';
+let scontoj = '70%'
 
-// 2. Per ogni prezzo
-listaPrezzi.forEach(elemento => {
+document.querySelectorAll(".prezzo-nuovo").forEach(elementoPrezzo => {
 
-    // 3. Prendo il numero finale (es: 37.20)
-    let prezzoFinale = parseFloat(elemento.dataset.prezzo);
+    // 🔢 1. PREZZO ORIGINALE
+    let prezzoAttuale = parseFloat(
+        elementoPrezzo.getAttribute("data-prezzo")
+    );
 
-    // 4. Parto da zero
-    let numeroAttuale = 0;
+    // 🎯 2. PERCENTUALE DI SCONTO
+    let sconto = parseFloat(
+        elementoPrezzo.getAttribute("data-sconto")
+    );
 
-    // 5. Creo un timer
-    let timer = setInterval(() => {
+    // 🧮 3. CALCOLO PREZZO FINALE
+    let prezzoFinale = prezzoAttuale * (1 - sconto / 100);
 
-        // 6. Aumento il numero
-        numeroAttuale += 1;
-
-        // 7. Se arrivo al numero finale
-        if (numeroAttuale >= prezzoFinale) {
-
-            // Mostro il numero finale
-            elemento.innerText = prezzoFinale.toFixed(2);
-
-            // Fermo il timer
-            clearInterval(timer);
-
-        } else {
-
-            // Continuo a mostrare i numeri
-            elemento.innerText = numeroAttuale;
-        }
-
-    }, 20);
+    // 🖥️ 4. MOSTRO IL RISULTATO
+    elementoPrezzo.innerText =
+        prezzoFinale.toFixed(2).replace(".", ",") + '€';
 });
