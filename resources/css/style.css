@@ -36,32 +36,40 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .NavBar {
-    background-color: var(--terz) !important;
+    background: linear-gradient(90deg, var(--main), var(--acc), var(--main));;
     height: 140px;
 }
 
 .NavBar .navbar-nav .nav-link {
-    color: var(--main) !important;
+    color: var(--quart) ;
     font-size: 1.7rem;
     display: flex;
+    font-weight: bold
     
 }
 
 .NavBar .dropdown-toggle {
-    color: var(--main) !important;
+    color: var(--main) ;
     font-size: 1.2rem;
 }
 
 .NavBar .dropdown-item {
     color: var(--main);
     font-size: 1.1rem;
+    font-weight: bold
 }
 
 .NavBar .logoCarrello{
     margin-right: 50px;
-    
+    color: var(--acc);
 }
 
+.NavBar .logoCarrello:hover {
+    transform: scale(1.2) rotate(10deg);
+    color: white;
+    text-shadow: 0 0 10px var(--quart);
+    transition: all 0.3s ease;
+}
 
 
 
