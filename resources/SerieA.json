@@ -6,52 +6,52 @@
         "price": "120",
         "location": "Bergamo, Lombardia",
         "description": "Straordinarie strisce verticali nerazzurre con pannello sul retro e iconica Dea. Kit ufficiale della stagione 2025-26.",
-        "url": "./media/annuncio_01.png"
+        "url": "./resources/media/atalanta.png"
     },
     {
         "id": 2,
+        "name": "Bari Home 2025-26",
+        "category": "Home",
+        "price": "500",
+        "location": "Bari, Puglia",
+        "description": "Maglia bianca con dettagli tono su tono e texture sublimata, con colletto a polo e inserti laterali “cresta di gallo” che richiamano la storia del club e il suo storico simbolo.",
+        "url": "./resources/media/bari.png"
+    },
+    {
+        "id": 3,
         "name": "Bologna Home 2025-26",
         "category": "Home",
         "price": "115",
         "location": "Bologna, Emilia-Romagna",
         "description": "Classica maglia rossoblu a strisce orizzontali con dettagli del motto 'We Are One' sul retrocollo.",
-        "url": "./media/annuncio_02.png"
+        "url": "./resources/media/bologna.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Cagliari Home 2025-26",
         "category": "Home",
         "price": "118",
         "location": "Cagliari, Sardegna",
         "description": "Quarti rosso-blu con trama sublimata che ricorda il mare e il vento sardi, tema 'Of Salt and Wind'.",
-        "url": "./media/annuncio_03.png"
+        "url": "./resources/media/cagliari.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Como Home 2025-26",
         "category": "Home",
         "price": "110",
         "location": "Como, Lombardia",
         "description": "Kit blu royal con pattern 'Lake Print' ispirato al lago di Como e dettagli bianchi.",
-        "url": "./media/annuncio_04.png"
+        "url": "./resources/media/como.png"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Cremonese Home 2025-26",
         "category": "Home",
         "price": "105",
         "location": "Cremona, Lombardia",
         "description": "Righe rosse con pattern di note e pentagrammi, tributo alla tradizione violinistica della città.",
-        "url": "./media/annuncio_05.png"
-    },
-    {
-        "id": 6,
-        "name": "Empoli Home 2025-26",
-        "category": "Home",
-        "price": "108",
-        "location": "Empoli, Toscana",
-        "description": "Maglia azzurra con dettagli bianchi, design semplice e pulito, ispirato alla tradizione del club toscano.",
-        "url": "./media/annuncio_06.png"
+        "url": "./resources/media/cremonese.png"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "price": "125",
         "location": "Firenze, Toscana",
         "description": "Maglia viola con pattern tono su tono che richiama il giglio fiorentino, ispirata alla maglia del 1999-2000.",
-        "url": "./media/annuncio_07.png"
+        "url": "./resources/media/fiorentina.png"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "price": "118",
         "location": "Genova, Liguria",
         "description": "Croci rosse su campo bianco con logo del Grifone, simbologia storica della città e del club.",
-        "url": "./media/annuncio_08.png"
+        "url": "./resources/media/genoa.png"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "price": "130",
         "location": "Milano, Lombardia",
         "description": "Straordinarie strisce nere e blu con la scritta 'INTER' celata tra i dettagli grafici, colori sociali rielaborati con tocchi turchesi.",
-        "url": "./media/annuncio_09.png"
+        "url": "./resources/media/inter.png"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "price": "135",
         "location": "Torino, Piemonte",
         "description": "Maglia nera total look con dettagli dorati e logo reworked, stile moderno e minimalista per la stagione 2025-26.",
-        "url": "./media/annuncio_10.png"
+        "url": "./resources/media/juve.png"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "price": "120",
         "location": "Roma, Lazio",
         "description": "Celeste con stemma storico dell'aquilotto '70 sublimato sul petto, design classico e molto pulito.",
-        "url": "./media/annuncio_11.png"
+        "url": "./resources/media/lazio.png"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "price": "108",
         "location": "Lecce, Puglia",
         "description": "Maglia giallo‑nero con dettagli rossi, stile moderno ma fedele ai colori storici del club salentino.",
-        "url": "./media/annuncio_12.png"
+        "url": "./resources/media/lecce.png"
     },
     {
         "id": 13,
@@ -114,78 +114,79 @@
         "price": "132",
         "location": "Milano, Lombardia",
         "description": "Straordinarie strisce rosse e nere con fiamme, stemma rosso fuoco e look moderno, ispirato a uno stile infernale.",
-        "url": "./media/annuncio_13.png"
+        "url": "./resources/media/milan.png"
     },
     {
         "id": 14,
-        "name": "Monza Home 2025-26",
-        "category": "Home",
-        "price": "110",
-        "location": "Monza, Lombardia",
-        "description": "Banda bianca verticali su campo rosso, richiamo alla tradizione del club e design moderno con logo raffinato.",
-        "url": "./media/annuncio_14.png"
-    },
-    {
-        "id": 15,
         "name": "Napoli Home 2025-26",
         "category": "Home",
-        "price": "125",
+        "price": "110",
         "location": "Napoli, Campania",
-        "description": "Maglia azzurra con colletto bianco, dettagli bianchi e pattern con la 'N' napoleonica integrata nel tessuto.",
-        "url": "./media/annuncio_15.png"
+        "description": "Maglia azzurra con dettagli bianchi e colletto a polo, arricchita da una trama sublimata con la “N” napoleonica, omaggio alla tradizione del club e all’iconico simbolo della città",
+        "url": "./resources/media/napoli.png"
     },
+
     {
-        "id": 16,
+        "id": 15,
         "name": "Parma Home 2025-26",
         "category": "Home",
         "price": "110",
         "location": "Parma, Emilia-Romagna",
         "description": "Croce nera più larga, richiamo diretto al kit del 1925-1926, con frase 'Famiglia Gialloblu' sul retro.",
-        "url": "./media/annuncio_16.png"
+        "url": "./resources/media/parma.png"
     },
     {
-        "id": 17,
+        "id": 16,
         "name": "Pisa Home 2025-26",
         "category": "Home",
         "price": "100",
         "location": "Pisa, Toscana",
         "description": "Nerazzurro con dettagli oro, ispirazione alla Torre e ai monumenti storici, celebrazione di tradizione e città.",
-        "url": "./media/annuncio_17.png"
+        "url": "./resources/media/pisa.png"
     },
     {
-        "id": 18,
+        "id": 17,
         "name": "Roma Home 2025-26",
         "category": "Home",
         "price": "122",
         "location": "Roma, Lazio",
         "description": "Maglia giallorossa che richiama i kit storici degli anni '90, con frase 'AS Roma' stampata sul retrocollo.",
-        "url": "./media/annuncio_18.png"
+        "url": "./resources/media/roma.png"
     },
     {
-        "id": 19,
+        "id": 18,
         "name": "Sassuolo Home 2025-26",
         "category": "Home",
         "price": "105",
         "location": "Sassuolo, Emilia-Romagna",
         "description": "Righe nere molto sottili su fondo verde, colletto a polo e scritta 'emozioni neroverdi' sul retro.",
-        "url": "./media/annuncio_19.png"
+        "url": "./resources/media/sassuolo.png"
     },
     {
-        "id": 20,
+        "id":19,
         "name": "Torino Home 2025-26",
         "category": "Home",
         "price": "112",
         "location": "Torino, Piemonte",
         "description": "Maglia granata con colletto a polo e trama a onde, omaggio alla tradizione del club e al simbolo della Mole.",
-        "url": "./media/annuncio_20.png"
+        "url": "./resources/media/torino.png"
+    },
+    {
+        "id": 20,
+        "name": "Udinese Home 2025-26",
+        "category": "Home",
+        "price": "60",
+        "location": "Udine, Friuli-Venezia Giulia",
+        "description": "Maglia nera con dettagli bianchi e colletto a polo, arricchita da una texture sublimata a onde, omaggio alla tradizione del club e alla sua storica promozione in Champions del 2004‑05.",
+        "url": "./resources/media/udines.png"
     },
     {
         "id": 21,
-        "name": "Bari Home 2025-26",
+        "name": "Verona Home 2025-26",
         "category": "Home",
         "price": "500",
-        "location": "Bari, Puglia",
-        "description": "Maglia bianca con dettagli tono su tono e texture sublimata, con colletto a polo e inserti laterali “cresta di gallo” che richiamano la storia del club e il suo storico simbolo.",
-        "url": "./media/annuncio_21.png"
+        "location": "Verona, Veneto",
+        "description": "Maglia rossa con fasce nere e dettagli tono su tono, con colletto a polo e una trama leggera che richiama i colori storici del club, omaggio alla tradizione scaligera e all’identità di Verona.",
+        "url": "./resources/media/verona.png"
     }
 ]

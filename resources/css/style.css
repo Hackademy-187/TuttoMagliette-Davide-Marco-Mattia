@@ -72,6 +72,32 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+#CercaPer{
+  color: var(--terz);
+  font-weight: bold
+}
+
+#Annunci{
+  color: var(--terz);
+  font-weight: bold
+}
+
+.accordion-button{
+  background-color: var(--terz);
+  color: black;
+  font-weight: bold
+}
+
+.accordion-collapse{
+  background-color: var(--quart);
+  color:black;
+  font-weight: bold
+}
+
+.form-check-input:checked {
+    background-color: var(--main);
+    border-color: var(--main);
+}
 
 
 
