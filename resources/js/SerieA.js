@@ -7,6 +7,7 @@
 
 console.log("Funziona");
 
+let allData = [];
 fetch(" ../SerieA.json")
 .then((response) => response.json())
 .then((data) => {
@@ -32,3 +33,36 @@ fetch(" ../SerieA.json")
         containercards.appendChild(div);
     });
 });
+
+
+
+
+// Implementazione filtro per CATEGORIA
+    function categoryByFilter(category) {
+        // l'utente ha selezionato Tutte le Categorie
+        if (category === 'All') {
+            // console.log(data);
+            createCards(allData);
+        } else { // l'utente ha selezionato una categoria specifica
+            // Salviamo una nuovo array di annunci che hanno la stessa categoria selezionata dall'utente
+            let filtered = allData.filter((annuncio) => annuncio.location.includes(category));
+
+            // console.log(filtered);
+            createCards(filtered);
+            
+        }
+        
+    }
+
+    // Catturare tutti i radio button delle Categorie
+    let radioCategories = document.querySelectorAll('.form-check-input');
+    // console.log(radioCategories);
+
+    radioCategories.forEach((radioCategory) => {
+        radioCategory.addEventListener('click', () => {
+            // console.log(radioCategory.id);
+            let nameCategory = radioCategory.parentElement.querySelector("label").textContent.trim()
+            categoryByFilter(nameCategory);
+        })
+    })
+
