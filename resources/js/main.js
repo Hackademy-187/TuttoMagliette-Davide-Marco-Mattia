@@ -183,9 +183,9 @@ function aggiornacountdown() {
     let secondi = Math.floor((diff / 1000) % 60);
 
     document.getElementById("countdown").textContent =
-    `${String(ore). padStart(2, "0")}: ${String(minuti). padStart(2, "0")} : ${String(secondi). padStart(2, "0")}`;
-    
-    
+        `${String(ore).padStart(2, "0")}: ${String(minuti).padStart(2, "0")} : ${String(secondi).padStart(2, "0")}`;
+
+
 }
 
 setInterval(aggiornacountdown, 1000);
@@ -292,7 +292,7 @@ aggiornacountdown()
 //inizio davide
 //prende tutti i prezzi nella pagina
 let prezzoAttuale = '124.99';
-let scontoj = '70%'
+let sconto = '70%'
 
 document.querySelectorAll(".prezzo-nuovo").forEach(elementoPrezzo => {
 
