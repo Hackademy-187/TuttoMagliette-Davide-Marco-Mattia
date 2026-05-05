@@ -6,7 +6,7 @@
         "price": "120",
         "location": "Bergamo, Lombardia",
         "description": "Straordinarie strisce verticali nerazzurre con pannello sul retro e iconica Dea. Kit ufficiale della stagione 2025-26.",
-        "url": "./resources/media/atalanta.png"
+        "url": "../media/atalanta.png"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "price": "500",
         "location": "Bari, Puglia",
         "description": "Maglia bianca con dettagli tono su tono e texture sublimata, con colletto a polo e inserti laterali “cresta di gallo” che richiamano la storia del club e il suo storico simbolo.",
-        "url": "./resources/media/bari.png"
+        "url": "../media/bari.png"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "price": "115",
         "location": "Bologna, Emilia-Romagna",
         "description": "Classica maglia rossoblu a strisce orizzontali con dettagli del motto 'We Are One' sul retrocollo.",
-        "url": "./resources/media/bologna.png"
+        "url": "../media/bologna.png"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "price": "118",
         "location": "Cagliari, Sardegna",
         "description": "Quarti rosso-blu con trama sublimata che ricorda il mare e il vento sardi, tema 'Of Salt and Wind'.",
-        "url": "./resources/media/cagliari.png"
+        "url": "../media/cagliari.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "price": "110",
         "location": "Como, Lombardia",
         "description": "Kit blu royal con pattern 'Lake Print' ispirato al lago di Como e dettagli bianchi.",
-        "url": "./resources/media/como.png"
+        "url": "../media/como.png"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "price": "105",
         "location": "Cremona, Lombardia",
         "description": "Righe rosse con pattern di note e pentagrammi, tributo alla tradizione violinistica della città.",
-        "url": "./resources/media/cremonese.png"
+        "url": "../media/cremonese.png"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "price": "125",
         "location": "Firenze, Toscana",
         "description": "Maglia viola con pattern tono su tono che richiama il giglio fiorentino, ispirata alla maglia del 1999-2000.",
-        "url": "./resources/media/fiorentina.png"
+        "url": "../media/fiorentina.png"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "price": "118",
         "location": "Genova, Liguria",
         "description": "Croci rosse su campo bianco con logo del Grifone, simbologia storica della città e del club.",
-        "url": "./resources/media/genoa.png"
+        "url": "../media/genoa.png"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "price": "130",
         "location": "Milano, Lombardia",
         "description": "Straordinarie strisce nere e blu con la scritta 'INTER' celata tra i dettagli grafici, colori sociali rielaborati con tocchi turchesi.",
-        "url": "./resources/media/inter.png"
+        "url": "../media/inter.png"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "price": "135",
         "location": "Torino, Piemonte",
         "description": "Maglia nera total look con dettagli dorati e logo reworked, stile moderno e minimalista per la stagione 2025-26.",
-        "url": "./resources/media/juve.png"
+        "url": "../media/juve.png"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "price": "120",
         "location": "Roma, Lazio",
         "description": "Celeste con stemma storico dell'aquilotto '70 sublimato sul petto, design classico e molto pulito.",
-        "url": "./resources/media/lazio.png"
+        "url": "../media/lazio.png"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "price": "108",
         "location": "Lecce, Puglia",
         "description": "Maglia giallo‑nero con dettagli rossi, stile moderno ma fedele ai colori storici del club salentino.",
-        "url": "./resources/media/lecce.png"
+        "url": "../media/lecce.png"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "price": "132",
         "location": "Milano, Lombardia",
         "description": "Straordinarie strisce rosse e nere con fiamme, stemma rosso fuoco e look moderno, ispirato a uno stile infernale.",
-        "url": "./resources/media/milan.png"
+        "url": "../media/milan.png"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "price": "110",
         "location": "Napoli, Campania",
         "description": "Maglia azzurra con dettagli bianchi e colletto a polo, arricchita da una trama sublimata con la “N” napoleonica, omaggio alla tradizione del club e all’iconico simbolo della città",
-        "url": "./resources/media/napoli.png"
+        "url": "../media/napoli.png"
     },
 
     {
@@ -133,7 +133,7 @@
         "price": "110",
         "location": "Parma, Emilia-Romagna",
         "description": "Croce nera più larga, richiamo diretto al kit del 1925-1926, con frase 'Famiglia Gialloblu' sul retro.",
-        "url": "./resources/media/parma.png"
+        "url": "../media/parma.png"
     },
     {
         "id": 16,
@@ -142,7 +142,7 @@
         "price": "100",
         "location": "Pisa, Toscana",
         "description": "Nerazzurro con dettagli oro, ispirazione alla Torre e ai monumenti storici, celebrazione di tradizione e città.",
-        "url": "./resources/media/pisa.png"
+        "url": "../media/pisa.png"
     },
     {
         "id": 17,
@@ -151,7 +151,7 @@
         "price": "122",
         "location": "Roma, Lazio",
         "description": "Maglia giallorossa che richiama i kit storici degli anni '90, con frase 'AS Roma' stampata sul retrocollo.",
-        "url": "./resources/media/roma.png"
+        "url": "../media/roma.png"
     },
     {
         "id": 18,
@@ -160,7 +160,7 @@
         "price": "105",
         "location": "Sassuolo, Emilia-Romagna",
         "description": "Righe nere molto sottili su fondo verde, colletto a polo e scritta 'emozioni neroverdi' sul retro.",
-        "url": "./resources/media/sassuolo.png"
+        "url": "../media/sassuolo.png"
     },
     {
         "id":19,
@@ -169,7 +169,7 @@
         "price": "112",
         "location": "Torino, Piemonte",
         "description": "Maglia granata con colletto a polo e trama a onde, omaggio alla tradizione del club e al simbolo della Mole.",
-        "url": "./resources/media/torino.png"
+        "url": "../media/torino.png"
     },
     {
         "id": 20,
@@ -178,7 +178,7 @@
         "price": "60",
         "location": "Udine, Friuli-Venezia Giulia",
         "description": "Maglia nera con dettagli bianchi e colletto a polo, arricchita da una texture sublimata a onde, omaggio alla tradizione del club e alla sua storica promozione in Champions del 2004‑05.",
-        "url": "./resources/media/udines.png"
+        "url": "../media/udines.png"
     },
     {
         "id": 21,
@@ -187,6 +187,7 @@
         "price": "500",
         "location": "Verona, Veneto",
         "description": "Maglia rossa con fasce nere e dettagli tono su tono, con colletto a polo e una trama leggera che richiama i colori storici del club, omaggio alla tradizione scaligera e all’identità di Verona.",
-        "url": "./resources/media/verona.png"
+        "url": "../media/verona.png"
     }
 ]
+
