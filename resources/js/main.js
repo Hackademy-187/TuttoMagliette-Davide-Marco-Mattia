@@ -1,7 +1,25 @@
 // Inizio Mattia
 
+let firstNumber = document.querySelector('#firstNumber');
+let secondNumber = document.querySelector('#secondNumber');
+let thirdNumber = document.querySelector('#thirdNumber');
 
+function createInterval(element, maxNumber, timeFrequency) {
+let counter = 0;
+let interval = setInterval(() => {
+if (counter < maxNumber) {
+counter++;
+element. innerHTML = counter;
+} else {
+clearInterval(interval);
+}
+}, timeFrequency) ;
 
+}
+
+createInterval(firstNumber, 1000, 50);
+createInterval(secondNumber, 2000, 25);
+createInterval(thirdNumber, 3000, 1);
 
 
 

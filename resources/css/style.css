@@ -99,10 +99,52 @@ h1,h2,h3,h4,h5,h6{
     border-color: var(--main);
 }
 
+hr{
+  color: var(--terz);
+}
 
+.img-Stadio{
+  border-radius: 15px;
+  width: 100px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 
+}
 
+#firstNumber{
+  color: var(--main);
+  font-weight: bold;
+  font-size: 30px;
+  
+}
 
+#secondNumber{
+  color: var(--main);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#thirdNumber{
+  color: var(--main);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#titolonumeri{
+  color: var(--main);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p{
+  color: var(--main);
+  font-weight: bold;
+}
+
+.containernumeri{
+  background-color: var(--quart);
+  border-radius: 15px;
+}
 
 
 
